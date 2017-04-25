@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<documentation name="Loteamento Urbano" theme="Aplicações Urbanas">
+    <problem>Como estruturar os dados de uma base cadastral urbana?</problem>
+    <context>O ponto de partida para qualquer aplicação de SIG, que tenha uma cidade como área geográfica de interesse, é a elaboração da base cartográfica digital, integrada a um cadastro multifinalitário. Estas duas bases de dados são utilizadas por aplicações diversas como atendimentos de urgência (ex.: ambu¬lância, bombeiros, segurança pública), controle de matrícula em escolas públicas, distribuição de postos de saúde, arrecadação de tributos, redes de infra-estrutura (ex.: água, esgoto, luz, tele¬fonia), etc. Estas aplicações necessitam de informações como traçado viário, localização de bairros, quadras, lotes e, em alguns casos, até mesmo informações precisas sobre os limites das construções dentro de cada lote.
+    </context>
+    
+    <forces>-O nível de detalhe da base cadastral depende da existência de dados digitais espaciais para a cidade sendo modelada. Nem sempre é viável financeiramente obter a base cadastral na escala pretendida. Quanto maior a escala original, maior os custos de obtenção e maior os problemas de manutenção dos dados.
+-Dependendo do porte do município, diferentes tipos de divisões são empregados. Os tipos mais comuns incluem divisões administrativas e bairros.
+-O conceito de bairro não é único para todas as cidades. Por exemplo, uma quadra pode não pertencer, necessariamente, a um único bairro. Em algumas cidades os limites de um bairro podem cortar até mesmo um lote.
+-•	Um lote deve possuir dois tipos de representação espacial: a representação de seus limites e a representação correspondente à frente do lote, também conhecida por “testada do lote”. O mesmo pode ocorrer com as quadras na representação de “faces de quadra”.
+    </forces>
+    
+    <participants>A classe DivisãoAdministrativa pode ser especializada em outras subdivisões municipais (ex.: setores censitários, zonas de coleta de lixo, zonas de policiamento). A cidade, ou sede municipal, corresponde a um distrito.
+A classe Bairro está associada à classe Quadra, através de uma multiplicidade “um-para-muitos”, mas esta associação deve ser adaptada a cada situação específica. Em alguns municípios o limite de um bairro pode não respeitar os limites das quadras, neste caso, a multiplicidade seria “muitos-para-muitos”, o que implica em uma situação não desejada.
+Outra variação que pode ocorrer diz respeito à forma de associar o lote ou a quadra com o trecho de logradouro. Na solução apresentada, por exemplo, o trecho de logradouro está associado à testada do lote. No entanto, o lote poderia estar associado diretamente ao trecho de logradouro. Em situações nas quais o maior nível de detalhe são as quadras, o trecho de logradouro estaria associado à face de quadra.
+    </participants>
+    
+    <related_patterns>Malha Viária Urbana.</related_patterns>
+    
+    <example>O uso do padrão Loteamento Urbano pode ser visto na Figura 6, a qual ilustra um sistema de cadastro urbano para fins de tributação do Imposto Predial e Territorial Urbano (IPTU). 
+No exemplo, um lote edificado pode possuir diversas edificações (ex.: um condomínio com vários edifícios, um Shopping Center). Cada edificação pode ser composta de diversas unidades edificadas (ex.: apartamentos, lojas). Tanto as unidades edificadas como os lotes territoriais (não edificados) constituem unidades para fins de tributação, modelado pela classe Imóvel IPTU, o qual pode estar associado, normalmente, a um proprietário principal. Foram incluídos apenas os atributos mais comuns, uma vez que a necessidade de atributos depende dos objetivos do sistema.
+    </example>
+</documentation>

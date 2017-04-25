@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="Dbms.java">
+        <attr name="class_dependency_javax.swing.JDialog" stringvalue="Dbms"/>
+    </fileobject>
+    <fileobject name="GeneraWindow.java">
+        <attr name="class_dependency_javax.swing.JDialog" stringvalue="GeneraWindow"/>
+    </fileobject>
+    <fileobject name="XmlReader.java">
+        <attr name="NetBeansAttrArguments" serialvalue="aced0005757200135b4c6a6176612e6c616e672e537472696e673badd256e7e91d7b4702000078700000000174000765755f2e786d69"/>
+    </fileobject>
+</attributes>

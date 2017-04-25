@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<documentation name="Malha Viária Urbana" theme="Aplicações Urbanas">
+    <problem>Quais os elementos pertencentes à malha viária de uma cidade?</problem>
+    <context>No Brasil, praticamente todas as cidades apresentam um mesmo padrão de organização, no qual são estruturadas com base em suas vias de locomoção (ex.: ruas, avenidas, travessas). O conjunto de trechos de vias e seus cruzamentos formam uma rede viária urbana. 
+
+
+    
+
+
+    
+
+
+    </context>
+    <forces>-Cada via de locomoção, considerada uma instância de logradouro, deve possuir um código de identificação e um nome, além de estar, normalmente, dividida em diversos trechos. 
+-Um trecho de logradouro corresponde ao segmento de via compreendido entre duas conexões, em seqüência, deste com outros logradouros que o cruzam ou interceptam. 
+-O conjunto formado pelas conexões (ou pontos terminais) e pelos trechos de logradouros constituem a malha viária urbana.
+
+    
+    
+    </forces>
+    <participants>
+    
+    
+    </participants>
+    <related_patterns>
+    
+    
+    </related_patterns>
+    <example>
+    
+    
+    </example>
+</documentation>

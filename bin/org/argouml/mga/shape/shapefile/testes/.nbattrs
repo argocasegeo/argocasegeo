@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="SAXTreeViewer.java">
+        <attr name="NetBeansAttrArguments" serialvalue="aced0005757200135b4c6a6176612e6c616e672e537472696e673badd256e7e91d7b47020000787000000000"/>
+        <attr name="class_dependency_javax.swing.JFrame" stringvalue="SAXTreeViewer"/>
+    </fileobject>
+    <fileobject name="DOMTreeTest.java">
+        <attr name="class_dependency_javax.swing.tree.TreeModel" stringvalue="DOMTreeModel"/>
+        <attr name="class_dependency_javax.swing.JFrame" stringvalue="DOMTreeFrame"/>
+        <attr name="class_dependency_javax.swing.tree.DefaultTreeCellRenderer" stringvalue="DOMTreeCellRenderer"/>
+    </fileobject>
+</attributes>

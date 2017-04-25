@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/lib/jena.jar" sourcepath="C:/Documents and Settings/Guilherme/Desktop/lib/jena.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCASEGEO - fonte/lib/ANTLRALL.JAR"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCASEGEO - fonte/lib/gef-0.9.6.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCASEGEO - fonte/lib/jdom.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCASEGEO - fonte/lib/LOG4J.JAR"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCASEGEO - fonte/lib/NSUML.JAR"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCASEGEO - fonte/lib/OCL-ARGO.JAR"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCASEGEO - fonte/lib/XERCES.JAR"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/lib/xml-apis.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/lib/antlr-2.7.5.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/lib/arq.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/lib/arq-extra.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/lib/concurrent.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/lib/icu4j_3_4.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/lib/iri.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/lib/jenatest.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/lib/json.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/lib/junit.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/lib/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/lib/lucene-core-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/lib/stax-api-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/lib/swing-layout-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/lib/wstx-asl-3.0.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

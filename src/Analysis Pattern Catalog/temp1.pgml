@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<pgml description="org.argouml.uml.diagram.static_structure.ui.UMLGeoFrame|-64--88-0--72--486df154:11a9d0ca16c:-8000"
+      name="UMLGeoFrame 1"
+>
+  <group name="Fig0"
+       description="org.argouml.uml.diagram.static_structure.ui.FigPackage[88, 48, 624, 328]"
+       href="-64--88-0--72--486df154:11a9d0ca16c:-7ffc"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig0.0"
+      x="88"
+      y="48"
+      width="624"
+      height="328"
+      fill="0"
+      fillcolor="-1"
+      stroke="0"
+      strokecolor="-16777216"
+    />
+    <text name="Fig0.1"
+      x="88"
+      y="48"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+      font="Dialog"
+      textsize="10"
+    ></text>
+    <text name="Fig0.2"
+      x="88"
+      y="48"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+      font="Dialog"
+      textsize="10"
+    >Educação</text>
+    <rectangle name="Fig0.3"
+      x="89"
+      y="66"
+      width="572"
+      height="2"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-1"
+    />
+    <text name="Fig0.4"
+      x="88"
+      y="68"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+      font="Serif"
+      textsize="10"
+    ></text>
+  </group>
+  <group name="Fig1"
+       description="org.argouml.uml.diagram.static_structure.ui.FigGeographicObject[168, 80, 136, 136]"
+       href="-64--88-0--72--486df154:11a9d0ca16c:-7ffd"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+      enclosingFig="Fig0"
+    </private>
+    
+    <rectangle name="Fig1.0"
+      x="168"
+      y="80"
+      width="136"
+      height="136"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+    />
+    <text name="Fig1.1"
+      x="168"
+      y="98"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+      font="Dialog"
+      textsize="10"
+    >  </text>
+    <text name="Fig1.2"
+      x="168"
+      y="80"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+      font="Dialog"
+      textsize="10"
+    >Aluno</text>
+    <rectangle name="Fig1.3"
+      x="169"
+      y="98"
+      width="134"
+      height="2"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-1"
+    />
+    <group name="Fig1.4"
+         description="org.tigris.gef.presentation.FigGroup[168, 118, 136, 66]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1.4.0"
+        x="168"
+        y="118"
+        width="136"
+        height="66"
+        fill="1"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+      />
+      <text name="Fig1.4.1"
+        x="169"
+        y="119"
+        fill="0"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+        font="Dialog"
+        textsize="10"
+      >Nome : String</text>
+      <text name="Fig1.4.2"
+        x="169"
+        y="151"
+        fill="0"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+        font="Dialog"
+        textsize="10"
+      >Matricula : int</text>
+    </group>
+    <group name="Fig1.5"
+         description="org.tigris.gef.presentation.FigGroup[168, 183, 136, 33]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1.5.0"
+        x="168"
+        y="183"
+        width="136"
+        height="33"
+        fill="1"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+      />
+    </group>
+    <group name="Fig1.6"
+         description="org.tigris.gef.presentation.FigGroup[287, 80, 17, 19]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      org.tigris.gef.presentation.FigImage@bed64
+    </group>
+    <group name="Fig1.7"
+         description="org.tigris.gef.presentation.FigGroup[287, 100, 17, 19]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      org.tigris.gef.presentation.FigImage@10e6c5e
+    </group>
+  </group>
+  <group name="Fig2"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig3"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig4"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig5"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig6"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig7"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig8"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig9"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig10"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig11"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig12"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig13"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig14"
+       description="org.argouml.uml.diagram.static_structure.ui.FigGeographicObject[464, 80, 144, 136]"
+       href="-64--88-0--72--486df154:11a9d0ca16c:-7ff8"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+      enclosingFig="Fig0"
+    </private>
+    
+    <rectangle name="Fig14.0"
+      x="464"
+      y="80"
+      width="144"
+      height="136"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+    />
+    <text name="Fig14.1"
+      x="464"
+      y="98"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+      font="Dialog"
+      textsize="10"
+    >  </text>
+    <text name="Fig14.2"
+      x="464"
+      y="80"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+      font="Dialog"
+      textsize="10"
+    >Bairro</text>
+    <rectangle name="Fig14.3"
+      x="465"
+      y="98"
+      width="142"
+      height="2"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-1"
+    />
+    <group name="Fig14.4"
+         description="org.tigris.gef.presentation.FigGroup[464, 118, 144, 66]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig14.4.0"
+        x="464"
+        y="118"
+        width="144"
+        height="66"
+        fill="1"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+      />
+      <text name="Fig14.4.1"
+        x="465"
+        y="119"
+        fill="0"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+        font="Dialog"
+        textsize="10"
+      >Nome : String</text>
+      <text name="Fig14.4.2"
+        x="465"
+        y="151"
+        fill="0"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+        font="Dialog"
+        textsize="10"
+      >Numero : int</text>
+    </group>
+    <group name="Fig14.5"
+         description="org.tigris.gef.presentation.FigGroup[464, 183, 144, 33]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig14.5.0"
+        x="464"
+        y="183"
+        width="144"
+        height="33"
+        fill="1"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+      />
+    </group>
+    <group name="Fig14.6"
+         description="org.tigris.gef.presentation.FigGroup[591, 80, 17, 19]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      org.tigris.gef.presentation.FigImage@11bd50e
+    </group>
+    <group name="Fig14.7"
+         description="org.tigris.gef.presentation.FigGroup[591, 100, 17, 19]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      org.tigris.gef.presentation.FigImage@40bf04
+    </group>
+  </group>
+  <group name="Fig15"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig16"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig17"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig18"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig19"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig20"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig21"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig22"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig23"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig24"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig25"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig26"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig27"
+       description="org.argouml.uml.diagram.static_structure.ui.FigGeographicObject[232, 256, 272, 109]"
+       href="-64--88-0--72--486df154:11a9d0ca16c:-7ff6"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+      enclosingFig="Fig0"
+    </private>
+    
+    <rectangle name="Fig27.0"
+      x="232"
+      y="256"
+      width="272"
+      height="109"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+    />
+    <text name="Fig27.1"
+      x="232"
+      y="274"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+      font="Dialog"
+      textsize="10"
+    >  </text>
+    <text name="Fig27.2"
+      x="232"
+      y="256"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+      font="Dialog"
+      textsize="10"
+    >Escola</text>
+    <rectangle name="Fig27.3"
+      x="233"
+      y="274"
+      width="270"
+      height="2"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-1"
+    />
+    <group name="Fig27.4"
+         description="org.tigris.gef.presentation.FigGroup[232, 294, 272, 54]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig27.4.0"
+        x="232"
+        y="294"
+        width="272"
+        height="54"
+        fill="1"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+      />
+      <text name="Fig27.4.1"
+        x="233"
+        y="295"
+        fill="0"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+        font="Dialog"
+        textsize="10"
+      >Nome : String</text>
+      <text name="Fig27.4.2"
+        x="233"
+        y="312"
+        fill="0"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+        font="Dialog"
+        textsize="10"
+      >Id : int</text>
+      <text name="Fig27.4.3"
+        x="233"
+        y="329"
+        fill="0"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+        font="Dialog"
+        textsize="10"
+      >Diretora : String</text>
+    </group>
+    <group name="Fig27.5"
+         description="org.tigris.gef.presentation.FigGroup[232, 347, 272, 18]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig27.5.0"
+        x="232"
+        y="347"
+        width="272"
+        height="18"
+        fill="1"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+      />
+    </group>
+    <group name="Fig27.6"
+         description="org.tigris.gef.presentation.FigGroup[234, 258, 16, 16]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      org.tigris.gef.presentation.FigImage@c08c5
+    </group>
+    <group name="Fig27.7"
+         description="org.tigris.gef.presentation.FigGroup[487, 256, 17, 19]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      org.tigris.gef.presentation.FigImage@be0ffe
+    </group>
+    <group name="Fig27.8"
+         description="org.tigris.gef.presentation.FigGroup[487, 276, 17, 19]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      org.tigris.gef.presentation.FigImage@13fb15
+    </group>
+  </group>
+  <group name="Fig28"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig29"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig30"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig31"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig32"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig33"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig34"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig35"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig36"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig37"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig38"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig39"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig40"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig41"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig42"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig43"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig44"
+       description="org.argouml.uml.diagram.ui.FigAssociation"
+       href="-64--88-0--72--486df154:11a9d0ca16c:-7ff5"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+      sourcePortFig="Fig1"
+      destPortFig="Fig27"
+      sourceFigNode="Fig1"
+      destFigNode="Fig27"
+    </private>
+    <path name="Fig44.1"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="0"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+    >
+      <moveto x="256"
+              y="216" />
+      <lineto x="256"
+              y="256" />
+    </path>
+  </group>
+  <group name="Fig45"
+       description="org.argouml.uml.diagram.ui.FigAssociation"
+       href="-64--88-0--72--486df154:11a9d0ca16c:-7ff2"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+      sourcePortFig="Fig14"
+      destPortFig="Fig27"
+      sourceFigNode="Fig14"
+      destFigNode="Fig27"
+    </private>
+    <path name="Fig45.1"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="0"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+    >
+      <moveto x="480"
+              y="216" />
+      <lineto x="480"
+              y="256" />
+    </path>
+  </group>
+</pgml>

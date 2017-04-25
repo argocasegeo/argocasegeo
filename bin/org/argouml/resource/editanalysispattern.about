@@ -1,0 +1,8 @@
+EDIT ANALYSIS PATTERN
+
+    Finally, it is possible to edit an analysis pattern, improving the quality if the solution and
+documentation of the catalog. To edit an analysis pattern it is MANDATORY to open an existing 
+pattern from the catalog (menu open/reuse). After opening the pattern, click on "Edit Analysis 
+Pattern" in the menu. Now it is possible to alter the class diagram and then click on "update 
+diagram" to visualize the new diagram. It is possible to modify the documentation of the pattern 
+as well. After performing the changes, click on "Finish" to end the edition. 

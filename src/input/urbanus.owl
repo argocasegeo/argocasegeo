@@ -1,0 +1,896 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://www.owl-ontologies.com/unnamed.owl#"
+  xml:base="http://www.owl-ontologies.com/unnamed.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="Clube">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Cultura_e_Lazer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Bar_Restaurante">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Servicos"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Endereco">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Descritor_de_Lugar"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Forma de expressar a localização de um lugar de interesse. O Endereço Básico precede o Complemento e o Complemento precede o Endereço Parcial.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Expressao_Espacial_Proximidade">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Expressões em linguagem natural que denotam proximidade e são utilizadas em Expressões de Posicionamento.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Ponte">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Logradouro_Obra_de_Arte"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Servicos">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Atividades comerciais relacionadas à prestação de serviço usadas como referência pela população.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Ponto_Referencia"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Cruzamento_em_Niveis_Diferentes_ProtegeModel">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Cruzamento_Logradouro"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Lado_da_Quadra">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Várias testadas de lote.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Museu">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Cultura_e_Lazer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Cruzamento_em_Niveis_Diferentes">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Cruzamento_Logradouro"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Quadra">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Uma quadra é considerada um "quarteirão" dentro das regiões urbanas.  As áreas urbanizadas de uma cidade são subdivididas em quadras, e uma quadra é subdividida em lotes.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Edificacao_Comercial">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Edificacao_de_Referencia"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Via_Local">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Trecho_de_Circulacao"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Alameda">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Logradouro"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Lagoa">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Hidrografia"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Area_Cep">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Divisao_Territorial"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Regiões postais que subdividem o País.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Pousada">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Hospedagem"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Regiao_Pais">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Pais"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Representa as subdivisões  territoriais de um País segundo diferentes critérios. Exemplo: mesorregiões, regiões geográficas (norte, sul..).</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#Hospedagem">
+    <rdfs:subClassOf rdf:resource="#Servicos"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Barragem">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Hidrografia"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Praia">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Hidrografia"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Distancia_Qualitativa">
+    <rdfs:subClassOf rdf:resource="#Expressao_Espacial_Proximidade"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Relacionamento métrico qualitativo como,  a "N" minutos de, a "N" Km de.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Apart_Hotel">
+    <rdfs:subClassOf rdf:resource="#Hospedagem"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Cruzamento_em_T">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Cruzamento_Logradouro"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Rua">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Logradouro"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Poligono">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Região do plano limitada por uma linha poligonal fechada. o primeiro ponto coincide com o último.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Geometria"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Acidente_Geografico">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Detalhe ou característica natural da superfície do terreno utilizado como referência de orientação pela população local.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Ponto_Referencia"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Regiao_de_Referencia">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nome de uma região usada como referência de localização pela população local.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Ponto_Referencia"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Viaduto">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Logradouro_Obra_de_Arte"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Edificacao_Publica">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Edificacao_de_Referencia"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Via_Arterial">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Trecho_de_Circulacao"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="No_Entorno">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Muito próximo- em frente, do lado, atrás.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Expressao_Espacial_Proximidade"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Ponto_Referencia">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Lugar"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Representa um local, um marco urbano ou um marco ambiental reconhecido pelas pessoas e que possa ser usado para orientação espacial.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#Cruzamento_Logradouro">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >É a interseção de duas ou mais vias</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Elevado">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Logradouro_Obra_de_Arte"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Shopping">
+    <rdfs:subClassOf rdf:resource="#Servicos"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Cruzamento_Giratorio">
+    <rdfs:subClassOf rdf:resource="#Cruzamento_Logradouro"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Rede_de_Circulacao_Viaria">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Conjunto de vias (rodoviária, ferroviárias, hidroviárias e aeroviárias) destinadas ao transporte.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Mercado">
+    <rdfs:subClassOf rdf:resource="#Servicos"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Endereco_Basico">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Parte do endereço  que identifica o imóvel.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Endereco"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Vila">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Sede"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Expressao_de_Posicionamento">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Descritor_de_Lugar"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Construção semântica em linguagem natural utilizada para expressar, por meio de um par &lt;expressão que denota um relacionamento espacial,ponto de referência>, a posição relativa no espaço de um lugar de interesse.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Motel">
+    <rdfs:subClassOf rdf:resource="#Hospedagem"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Municipio">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Estado"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Subdivisão política do Estado.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#Cultura_e_Lazer">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lcais relacionados a atividades culturais e de diversão usados como referência de orientação  pela população.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Ponto_Referencia"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Praca">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Logradouro"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Bairro">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Regiao_Cidade"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Subdivisão espacial de uma região de cidade ou região intra-urbana.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="SubDistrito">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Unidade administrativa de um município</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Unidade_Administrativa"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Complemento_Endereco">
+    <rdfs:subClassOf rdf:resource="#Endereco"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Cruzamento_Multiplo">
+    <rdfs:subClassOf rdf:resource="#Cruzamento_Logradouro"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Escola">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Edificacao_de_Referencia"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Estado">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Subdivisão política do País.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Regiao_Pais"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Hidrografia">
+    <rdfs:subClassOf rdf:resource="#Acidente_Geografico"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Elementos hidrográficos permanentes ou temporários.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Ponto_Turistico">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Locais de interesse turístico reconhecido pela população.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Ponto_Referencia"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Albergue">
+    <rdfs:subClassOf rdf:resource="#Hospedagem"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Vizinhaca">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nos arredores.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Expressao_Espacial_Proximidade"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Ponto">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Par ordenado (x,y) de coordenadas espaciais</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Geometria"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Bar">
+    <rdfs:subClassOf rdf:resource="#Servicos"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Parque">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Logradouro"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Via_Coletora">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Trecho_de_Circulacao"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Rio">
+    <rdfs:subClassOf rdf:resource="#Hidrografia"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Perto">
+    <rdfs:subClassOf rdf:resource="#Expressao_Espacial_Proximidade"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Um pouco mais longe do que no entorno como, perto de, a poucos minutos de.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Hotel">
+    <rdfs:subClassOf rdf:resource="#Hospedagem"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Malha_Viaria">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Malha viária urbana é o conjunto de vias (rodoviárias, hidroviárias, ferroviárias, aeroviárias) destinadas ao transporte.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Linha">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Par ordenado (x,y) de coordenadas espaciais.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Geometria"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Zoologico">
+    <rdfs:subClassOf rdf:resource="#Cultura_e_Lazer"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Estacao_Onibus">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Terminal_Transporte"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Testada">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A classe Testada é a maior extensão possível do alinhamento de um lote ou grupo de lotes voltados para uma mesma via</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Cruzamento_de_Pedestres">
+    <rdfs:subClassOf rdf:resource="#Cruzamento_Logradouro"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Serra">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Relevo"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Aeroporto">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Terminal_Transporte"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Terminal_Transporte">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Estações de embarque e desembarque de passageiros usadas como referência de localização pela população.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Ponto_Referencia"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Hospital">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Edificacao_de_Referencia"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Regiao_Cidade">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Subdivisão territorial de uma cidade.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Lote">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Porção do terreno parcelado, com frente para via pública e destinado a receber edificação.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Cinema">
+    <rdfs:subClassOf rdf:resource="#Cultura_e_Lazer"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Trecho_de_Logradouro">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Corresponde ao segmento de via compreendido entre duas conexões, em seqüência, deste com outros logradouros que o cruzam ou interceptam</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Teatro">
+    <rdfs:subClassOf rdf:resource="#Cultura_e_Lazer"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Montanha">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Relevo"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Via_de_Transito_Rapido">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Trecho_de_Circulacao"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Restaurante">
+    <rdfs:subClassOf rdf:resource="#Servicos"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Relevo">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Qualquer aspecto relativo ao modelado do terreno.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Acidente_Geografico"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Trecho_de_Circulacao">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Compreende vários trechos de logradouro e possui informações sobre o sentido permitido para tráfego de veículos. Em um trecho de circulação pode existir sinalizações sobre a velocidade máxima permitida.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#Edificacao_de_Referencia">
+    <rdfs:subClassOf rdf:resource="#Ponto_Referencia"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Construções  utilizadas como referência de orientação pela população local.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Cruzamento_em_Y">
+    <rdfs:subClassOf rdf:resource="#Cruzamento_Logradouro"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Ginasio_Poliesportivo">
+    <rdfs:subClassOf rdf:resource="#Cultura_e_Lazer"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Area_Codigo_Telefonico">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Divisao_Territorial"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Subdivisão do País em áreas de telefonia.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#Logradouro">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Espaço público de uso comum destinado ao trânsito de pedestre e/ou veículos usado como referência pela população.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Ponto_Referencia"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Avenida">
+    <rdfs:subClassOf rdf:resource="#Logradouro"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Trincheira">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Logradouro_Obra_de_Arte"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Divisao_Administrativa">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Subdivisão de uma região de cidade ou região intra-urbana em regiões administrativas.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Regiao_Cidade"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Distrito">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Unidade administrativa de um município.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Unidade_Administrativa"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Descritor_de_Lugar">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Formas de se referenciar um lugar. Pode ser um endereço, um topônimo ou uma expressão de posicionamento.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Cidade">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Sede"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Toponimo">
+    <rdfs:subClassOf rdf:resource="#Descritor_de_Lugar"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nomes próprios de lugares possuindo nomes alternativos.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#Unidade_Administrativa">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A divisão administrativa de um município é a subdivisão do território, constituindo as unidades administrativas sendo distritos ou subdistritos.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="No_de_Conversao">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >É o cruzamento no qual um veículo pode optar por tomar outro trecho de circulação.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Túnel">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Logradouro_Obra_de_Arte"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Igreja">
+    <rdfs:subClassOf rdf:resource="#Edificacao_de_Referencia"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Divisao_Territorial">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Representa o espaço territorial de um país com suas diferentes subdivisões geopolíticas, como estado e político-administrativas, como divisões regionais.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Lugar"/>
+  </owl:Class>
+  <owl:Class rdf:ID="RME">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Retângulo Mínimo Envolvente.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Poligono"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Cruzamento_sem_Sinalizacao">
+    <rdfs:subClassOf rdf:resource="#Cruzamento_Logradouro"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Morro">
+    <rdfs:subClassOf rdf:resource="#Relevo"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Geometria">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Descrição geométrica de um lugar.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Terminal_Ferroviario">
+    <rdfs:subClassOf rdf:resource="#Terminal_Transporte"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Centro_de_Exposicoes">
+    <rdfs:subClassOf rdf:resource="#Cultura_e_Lazer"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Centro_Convencoes">
+    <rdfs:subClassOf rdf:resource="#Cultura_e_Lazer"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Ladeira">
+    <rdfs:subClassOf rdf:resource="#Relevo"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Estadio_Futebol">
+    <rdfs:subClassOf rdf:resource="#Cultura_e_Lazer"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Estacao_Metro">
+    <rdfs:subClassOf rdf:resource="#Terminal_Transporte"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Sede">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sede de município (área urbana de cidade) ou de unidade administrativa (sede distrital).</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Centro_Cultural">
+    <rdfs:subClassOf rdf:resource="#Cultura_e_Lazer"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Zona_Urbana">
+    <rdfs:subClassOf rdf:resource="#Regiao_Cidade"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Subdivisão regional da cidade ou da região intra-urbana, por exemplo, zona norte ou zona sul por exemplo.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Endereco_Parcial">
+    <rdfs:subClassOf rdf:resource="#Endereco"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Parte do endereço que identifica sua localização.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Cemiterio">
+    <rdfs:subClassOf rdf:resource="#Edificacao_de_Referencia"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Cruzamento_em_Nivel">
+    <rdfs:subClassOf rdf:resource="#Cruzamento_Logradouro"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Logradouro_Obra_de_Arte">
+    <rdfs:subClassOf rdf:resource="#Logradouro"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Logradouro que exige maiores conhecimentos de engenharia para ser criado como, viaduto, túnel, trincheira.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#Pais">
+    <rdfs:subClassOf rdf:resource="#Divisao_Territorial"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nação.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Expressao_Espacial_Continencia_Coincidencia">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Expressões espaciais de continência e coincidência em linguagem natural. Corresponde aos relacionamentos topológicos: "está contido em" e "coincide com".</rdfs:comment>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="inverse_of_agregacao_no_conversao_trecho_circulacao">
+    <rdfs:range rdf:resource="#Rede_de_Circulacao_Viaria"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#No_de_Conversao"/>
+          <owl:Class rdf:about="#Trecho_de_Circulacao"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="agregacao_no_conversao_trecho_circulacao"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="inverse_of_agregacao_cruzamento_logradouro">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#Cruzamento_Logradouro"/>
+          <owl:Class rdf:about="#Trecho_de_Logradouro"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="agregacao_cruzamento_logradouro"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#Malha_Viaria"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#agregacao_no_conversao_trecho_circulacao">
+    <rdfs:domain rdf:resource="#Rede_de_Circulacao_Viaria"/>
+    <owl:inverseOf rdf:resource="#inverse_of_agregacao_no_conversao_trecho_circulacao"/>
+    <rdfs:range>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#No_de_Conversao"/>
+          <owl:Class rdf:about="#Trecho_de_Circulacao"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:range>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="inverse_of_possui_sede_cidade">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="possui_sede_cidade"/>
+    </owl:inverseOf>
+    <rdfs:domain rdf:resource="#Sede"/>
+    <rdfs:range rdf:resource="#Municipio"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="inverse_of_possui_unidade_administrativa">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="possui_unidade_administrativa"/>
+    </owl:inverseOf>
+    <rdfs:domain rdf:resource="#Unidade_Administrativa"/>
+    <rdfs:range rdf:resource="#Municipio"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="inverse_of_intercepta_trecho">
+    <rdfs:domain rdf:resource="#Trecho_de_Logradouro"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="intercepta_trecho"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#Cruzamento_Logradouro"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#possui_sede_cidade">
+    <rdfs:domain rdf:resource="#Municipio"/>
+    <owl:inverseOf rdf:resource="#inverse_of_possui_sede_cidade"/>
+    <rdfs:range rdf:resource="#Sede"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="agregacao_regiao_cidade">
+    <rdfs:range rdf:resource="#Regiao_Cidade"/>
+    <rdfs:domain rdf:resource="#Cidade"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="inverse_of_agregacao_regiao_cidade"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="possui_quadra">
+    <rdfs:domain rdf:resource="#Bairro"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="inverse_of_possui_quadra"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#Quadra"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#intercepta_trecho">
+    <rdfs:range rdf:resource="#Trecho_de_Logradouro"/>
+    <rdfs:domain rdf:resource="#Cruzamento_Logradouro"/>
+    <owl:inverseOf rdf:resource="#inverse_of_intercepta_trecho"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="inverse_of_sobrepõe_zona_urbana">
+    <owl:inverseOf>
+      <owl:FunctionalProperty rdf:ID="sobrepõe_zona_urbana"/>
+    </owl:inverseOf>
+    <rdfs:domain rdf:resource="#Zona_Urbana"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#agregacao_cruzamento_logradouro">
+    <rdfs:domain rdf:resource="#Malha_Viaria"/>
+    <rdfs:range>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#Cruzamento_Logradouro"/>
+          <owl:Class rdf:about="#Trecho_de_Logradouro"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:range>
+    <owl:inverseOf rdf:resource="#inverse_of_agregacao_cruzamento_logradouro"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="agregacao_municipio">
+    <rdfs:domain rdf:resource="#Estado"/>
+    <rdfs:range rdf:resource="#Municipio"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="inverse_of_agregacao_municipio"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="inverse_of_agregacao_regiao_cidade_vila">
+    <rdfs:domain rdf:resource="#Regiao_Cidade"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="agregacao_regiao_cidade_vila"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#Vila"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="inverse_of_possui_um_nenhum">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="possui_um_nenhum"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#Trecho_de_Logradouro"/>
+    <rdfs:domain rdf:resource="#Trecho_de_Circulacao"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="agregacao_lado_quadra">
+    <rdfs:domain rdf:resource="#Trecho_de_Logradouro"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="inverse_of_agregacao_lado_quadra"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="#Lado_da_Quadra"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#inverse_of_agregacao_lado_quadra">
+    <owl:inverseOf rdf:resource="#agregacao_lado_quadra"/>
+    <rdfs:range rdf:resource="#Trecho_de_Logradouro"/>
+    <rdfs:domain rdf:resource="#Lado_da_Quadra"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="inverse_of_agregacao_lote">
+    <rdfs:domain rdf:resource="#Lote"/>
+    <rdfs:range rdf:resource="#Quadra"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="agregacao_lote"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#possui_unidade_administrativa">
+    <owl:inverseOf rdf:resource="#inverse_of_possui_unidade_administrativa"/>
+    <rdfs:domain rdf:resource="#Municipio"/>
+    <rdfs:range rdf:resource="#Unidade_Administrativa"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="inverse_of_agregacao_testada">
+    <rdfs:range rdf:resource="#Lote"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="agregacao_testada"/>
+    </owl:inverseOf>
+    <rdfs:domain rdf:resource="#Testada"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#possui_um_nenhum">
+    <rdfs:range rdf:resource="#Trecho_de_Circulacao"/>
+    <rdfs:domain rdf:resource="#Trecho_de_Logradouro"/>
+    <owl:inverseOf rdf:resource="#inverse_of_possui_um_nenhum"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="sobrepõe_bairro">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="inverse_of_sobrepõe_bairro"/>
+    </owl:inverseOf>
+    <rdfs:domain rdf:resource="#Zona_Urbana"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#agregacao_lote">
+    <rdfs:domain rdf:resource="#Quadra"/>
+    <owl:inverseOf rdf:resource="#inverse_of_agregacao_lote"/>
+    <rdfs:range rdf:resource="#Lote"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#inverse_of_possui_quadra">
+    <owl:inverseOf rdf:resource="#possui_quadra"/>
+    <rdfs:domain rdf:resource="#Quadra"/>
+    <rdfs:range rdf:resource="#Bairro"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="inverse_of_agregacao_quadra">
+    <rdfs:range rdf:resource="#Lado_da_Quadra"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="agregacao_quadra"/>
+    </owl:inverseOf>
+    <rdfs:domain rdf:resource="#Quadra"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#inverse_of_agregacao_regiao_cidade">
+    <rdfs:domain rdf:resource="#Regiao_Cidade"/>
+    <rdfs:range rdf:resource="#Cidade"/>
+    <owl:inverseOf rdf:resource="#agregacao_regiao_cidade"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="inverse_of_possui_sede_vila">
+    <rdfs:domain rdf:resource="#Sede"/>
+    <rdfs:range rdf:resource="#Distrito"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="possui_sede_vila"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="adjacente_região_cidade">
+    <rdfs:domain rdf:resource="#Cidade"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#inverse_of_agregacao_municipio">
+    <rdfs:domain rdf:resource="#Municipio"/>
+    <owl:inverseOf rdf:resource="#agregacao_municipio"/>
+    <rdfs:range rdf:resource="#Estado"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#possui_sede_vila">
+    <rdfs:domain rdf:resource="#Distrito"/>
+    <rdfs:range rdf:resource="#Sede"/>
+    <owl:inverseOf rdf:resource="#inverse_of_possui_sede_vila"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#agregacao_testada">
+    <owl:inverseOf rdf:resource="#inverse_of_agregacao_testada"/>
+    <rdfs:domain rdf:resource="#Lote"/>
+    <rdfs:range rdf:resource="#Testada"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#agregacao_quadra">
+    <rdfs:domain rdf:resource="#Lado_da_Quadra"/>
+    <rdfs:range rdf:resource="#Quadra"/>
+    <owl:inverseOf rdf:resource="#inverse_of_agregacao_quadra"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#inverse_of_sobrepõe_bairro">
+    <owl:inverseOf rdf:resource="#sobrepõe_bairro"/>
+    <rdfs:domain rdf:resource="#Bairro"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="adjacente_a_regiao">
+    <rdfs:domain rdf:resource="#Regiao_Pais"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#agregacao_regiao_cidade_vila">
+    <rdfs:range rdf:resource="#Regiao_Cidade"/>
+    <owl:inverseOf rdf:resource="#inverse_of_agregacao_regiao_cidade_vila"/>
+    <rdfs:domain rdf:resource="#Vila"/>
+  </owl:ObjectProperty>
+  <owl:FunctionalProperty rdf:ID="toponimo_expressao">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#Expressao_de_Posicionamento"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="coordenada_x">
+    <rdfs:domain rdf:resource="#Ponto"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="Codigo">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#Municipio"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="par_coordenadaxy">
+    <rdfs:domain rdf:resource="#Linha"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="codigo_area">
+    <rdfs:domain rdf:resource="#Area_Codigo_Telefonico"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="complemento">
+    <rdfs:domain rdf:resource="#Complemento_Endereco"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="coordenada_y">
+    <rdfs:domain rdf:resource="#Ponto"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="possui_nome_alternativo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#Toponimo"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="cep">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#Endereco_Parcial"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="expressao_continencia_coincidencia">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#Expressao_Espacial_Continencia_Coincidencia"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="tipo_regiao">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#Regiao_Pais"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="tipo_logradouro">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#Endereco_Basico"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="expressao_proximidade">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#Expressao_Espacial_Proximidade"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="par_coordenadas_xy">
+    <rdfs:domain rdf:resource="#Poligono"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="nome">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#Toponimo"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="numero_imovel">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#Endereco_Basico"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="numero_telefone">
+    <rdfs:domain rdf:resource="#Endereco_Parcial"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="grau_especificidade">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#Ponto_Referencia"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="Expressao">
+    <rdfs:domain rdf:resource="#Expressao_de_Posicionamento"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="distancia_quantificada">
+    <rdfs:domain rdf:resource="#Expressao_Espacial_Proximidade"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="nome_logradouro">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#Endereco_Basico"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#sobrepõe_zona_urbana">
+    <owl:inverseOf rdf:resource="#inverse_of_sobrepõe_zona_urbana"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#Divisao_Administrativa"/>
+  </owl:FunctionalProperty>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.2.1, Build 365)  http://protege.stanford.edu -->

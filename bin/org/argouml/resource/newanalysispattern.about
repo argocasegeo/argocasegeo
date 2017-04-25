@@ -1,0 +1,23 @@
+NEW ANALYSIS PATTERN
+
+    This menu lets the user create a new analtysis pattern. To be able to use this menu it is 
+MANDATORY to hava at least one element in the model (a package, a Geographic Object, etc.), i.e., 
+the model MUST NOT BE EMPTY!
+    Once the user has finished designing the conceptual data schema, He/She can click on this menu
+to open the dialog for creating a new analysis pattern. The conceptual data schema represents
+the solution for the problem to be "solved" by the pattern. It is displayed on the left-hand side of
+the dialog. On the right-hand side, the user can fill in the documentation for the analysis pattern.
+This documentation must be filled according to the following:
+
+* Name - The name of the analysis pattern [required];
+* Theme - The theme where the analysis pattern belongs (e.g., Urban Management) [optional;
+* Problem - Brief declaration of the problem that needs to be solved by this analysis pattern. It can
+be written in the form of a question [required];
+* Context - Scenery in which the problem was identified and its proposed solution [required];
+* Forces - Set of restrictions considered when solving the problem [required];
+* Participants - Description of the elements comprising the analysis pattern [optional];
+* Related Patterns - Information about the related patterns [optional];
+* Example of use - An example of how this analysis pattern can be used [optional].
+
+    After finishing the documentation of the analysis pattern, click on "Finish" and the analysis pattern
+will be created and added to the catalog.

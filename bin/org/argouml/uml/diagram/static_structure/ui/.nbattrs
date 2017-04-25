@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="FigGeographicField.java">
+        <attr name="class_dependency_org.argouml.uml.diagram.ui.FigNodeModelElement" stringvalue="FigGeographicField"/>
+    </fileobject>
+    <fileobject name="FigGeographicObject.java">
+        <attr name="class_dependency_org.argouml.uml.diagram.ui.FigNodeModelElement" stringvalue="FigGeographicObject"/>
+    </fileobject>
+    <fileobject name="FigNonGeographicObject.java">
+        <attr name="class_dependency_org.argouml.uml.diagram.ui.FigNodeModelElement" stringvalue="FigNonGeographicObject"/>
+    </fileobject>
+    <fileobject name="UMLClassDiagram.java">
+        <attr name="class_dependency_org.argouml.uml.diagram.ui.UMLDiagram" stringvalue="UMLClassDiagram"/>
+    </fileobject>
+    <fileobject name="UMLGeoFrame.java">
+        <attr name="class_dependency_org.argouml.uml.diagram.ui.UMLDiagram" stringvalue="UMLGeoFrame"/>
+    </fileobject>
+</attributes>
