@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<documentation name="Escola" theme="Educação">
+    <problem>Mapear Alunos para Escolas</problem>
+    <context>Numa cidade devemos diminuir o máximo a distância da casa de cada aluno à escola.
+
+
+    </context>
+    <forces>Alunos moram perto de escolas ou não!
+    </forces>
+    <participants>Alunos, Bairros, Escolas
+    </participants>
+    <related_patterns>
+    </related_patterns>
+    <example>
+    </example>
+</documentation>

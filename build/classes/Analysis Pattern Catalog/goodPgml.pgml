@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE pgml SYSTEM "pgml.dtd">
+<pgml description="org.argouml.uml.diagram.static_structure.ui.UMLGeoFrame|-64--88-0--125-2002a0ba:1098eb65a3d:-8000"
+      name="UMLGeoFrame 1"
+>
+  <group name="Fig1000"
+       description="org.argouml.uml.diagram.static_structure.ui.FigPackage[104, 32, 488, 264]"
+       href="-64--88-0--125-2002a0ba:1098eb65a3d:-7ffe"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig1000.0"
+      x="104"
+      y="32"
+      width="488"
+      height="264"
+      fill="0"
+      fillcolor="-1"
+      stroke="0"
+      strokecolor="-16777216"
+    />
+    <text name="Fig1000.1"
+      x="104"
+      y="32"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+      font="Dialog"
+      textsize="10"
+    ></text>
+    <text name="Fig1000.2"
+      x="104"
+      y="32"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+      font="Dialog"
+      textsize="10"
+    >MalhaViaria</text>
+    <rectangle name="Fig1000.3"
+      x="105"
+      y="50"
+      width="436"
+      height="2"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-1"
+    />
+    <text name="Fig1000.4"
+      x="104"
+      y="52"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+      font="Serif"
+      textsize="10"
+    ></text>
+  </group>
+  <group name="Fig1001"
+       description="org.argouml.uml.diagram.static_structure.ui.FigNonGeographicObject[112, 176, 89, 92]"
+       href="-64--88-0--125-2002a0ba:1098eb65a3d:-7ffc"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+      enclosingFig="Fig1000"
+    </private>
+    
+    <rectangle name="Fig1001.0"
+      x="112"
+      y="176"
+      width="89"
+      height="92"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+    />
+    <text name="Fig1001.1"
+      x="112"
+      y="176"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+      font="Dialog"
+      textsize="10"
+    >Logradouro</text>
+    <text name="Fig1001.2"
+      x="112"
+      y="194"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+      font="Dialog"
+      textsize="10"
+    >  </text>
+    <rectangle name="Fig1001.3"
+      x="113"
+      y="194"
+      width="87"
+      height="2"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-1"
+    />
+    <group name="Fig1001.4"
+         description="org.tigris.gef.presentation.FigGroup[112, 214, 89, 37]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1001.4.0"
+        x="112"
+        y="214"
+        width="89"
+        height="37"
+        fill="1"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+      />
+      <text name="Fig1001.4.1"
+        x="113"
+        y="215"
+        fill="0"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+        font="Dialog"
+        textsize="10"
+      >codLogr : int</text>
+      <text name="Fig1001.4.2"
+        x="113"
+        y="233"
+        fill="0"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+        font="Dialog"
+        textsize="10"
+      >nomeLogr : String</text>
+    </group>
+    <group name="Fig1001.5"
+         description="org.tigris.gef.presentation.FigGroup[112, 250, 89, 18]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1001.5.0"
+        x="112"
+        y="250"
+        width="89"
+        height="18"
+        fill="1"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+      />
+    </group>
+    <group name="Fig1001.6"
+         description="org.tigris.gef.presentation.FigGroup[184, 176, 17, 19]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      org.tigris.gef.presentation.FigImage@10d0eae
+    </group>
+  </group>
+  <group name="Fig1002"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig1003"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig1004"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig1005"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig1006"
+       description="org.argouml.uml.diagram.static_structure.ui.FigGeographicObject[336, 56, 104, 75]"
+       href="-64--88-0--125-2002a0ba:1098eb65a3d:-7ff6"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+      enclosingFig="Fig1000"
+    </private>
+    
+    <rectangle name="Fig1006.0"
+      x="336"
+      y="56"
+      width="104"
+      height="75"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+    />
+    <text name="Fig1006.1"
+      x="336"
+      y="74"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+      font="Dialog"
+      textsize="10"
+    >  </text>
+    <text name="Fig1006.2"
+      x="336"
+      y="56"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+      font="Dialog"
+      textsize="10"
+    >MalhaViaria</text>
+    <rectangle name="Fig1006.3"
+      x="337"
+      y="74"
+      width="102"
+      height="2"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-1"
+    />
+    <group name="Fig1006.4"
+         description="org.tigris.gef.presentation.FigGroup[336, 94, 104, 19]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1006.4.0"
+        x="336"
+        y="94"
+        width="104"
+        height="19"
+        fill="1"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+      />
+    </group>
+    <group name="Fig1006.5"
+         description="org.tigris.gef.presentation.FigGroup[336, 112, 104, 19]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1006.5.0"
+        x="336"
+        y="112"
+        width="104"
+        height="19"
+        fill="1"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+      />
+    </group>
+    <group name="Fig1006.6"
+         description="org.tigris.gef.presentation.FigGroup[423, 56, 17, 19]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      org.tigris.gef.presentation.FigImage@f6398
+    </group>
+    <group name="Fig1006.7"
+         description="org.tigris.gef.presentation.FigGroup[423, 76, 17, 19]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      org.tigris.gef.presentation.FigImage@53a9d5
+    </group>
+  </group>
+  <group name="Fig1007"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig1008"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig1009"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig10010"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig10011"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig10012"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig10013"
+       description="org.argouml.uml.diagram.static_structure.ui.FigGeographicObject[248, 168, 144, 112]"
+       href="-64--88-0--125-2002a0ba:1098eb65a3d:-7ff4"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+      enclosingFig="Fig1000"
+    </private>
+    
+    <rectangle name="Fig10013.0"
+      x="248"
+      y="168"
+      width="144"
+      height="112"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+    />
+    <text name="Fig10013.1"
+      x="248"
+      y="186"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+      font="Dialog"
+      textsize="10"
+    >  </text>
+    <text name="Fig10013.2"
+      x="248"
+      y="168"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+      font="Dialog"
+      textsize="10"
+    >TrechoLogradouro</text>
+    <rectangle name="Fig10013.3"
+      x="249"
+      y="186"
+      width="142"
+      height="2"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-1"
+    />
+    <group name="Fig10013.4"
+         description="org.tigris.gef.presentation.FigGroup[248, 206, 144, 56]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig10013.4.0"
+        x="248"
+        y="206"
+        width="144"
+        height="56"
+        fill="1"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+      />
+      <text name="Fig10013.4.1"
+        x="249"
+        y="207"
+        fill="0"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+        font="Dialog"
+        textsize="10"
+      >idTrecho : int</text>
+      <text name="Fig10013.4.2"
+        x="249"
+        y="225"
+        fill="0"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+        font="Dialog"
+        textsize="10"
+      >numInic : int</text>
+      <text name="Fig10013.4.3"
+        x="249"
+        y="243"
+        fill="0"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+        font="Dialog"
+        textsize="10"
+      >numFinal : int</text>
+    </group>
+    <group name="Fig10013.5"
+         description="org.tigris.gef.presentation.FigGroup[248, 261, 144, 19]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig10013.5.0"
+        x="248"
+        y="261"
+        width="144"
+        height="19"
+        fill="1"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+      />
+      <text name="Fig10013.5.1"
+        x="249"
+        y="262"
+        fill="0"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+        font="Dialog"
+        textsize="10"
+      >conecta() : void</text>
+    </group>
+    <group name="Fig10013.6"
+         description="org.tigris.gef.presentation.FigGroup[375, 168, 17, 19]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      org.tigris.gef.presentation.FigImage@1ad0839
+    </group>
+    <group name="Fig10013.7"
+         description="org.tigris.gef.presentation.FigGroup[375, 188, 17, 19]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      org.tigris.gef.presentation.FigImage@f6f1b6
+    </group>
+  </group>
+  <group name="Fig10014"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig10015"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig10016"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig10017"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig10018"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig10019"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig10020"
+       description="org.argouml.uml.diagram.static_structure.ui.FigGeographicObject[440, 168, 145, 75]"
+       href="-64--88-0--125-2002a0ba:1098eb65a3d:-7feb"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+      enclosingFig="Fig1000"
+    </private>
+    
+    <rectangle name="Fig10020.0"
+      x="440"
+      y="168"
+      width="145"
+      height="75"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+    />
+    <text name="Fig10020.1"
+      x="440"
+      y="186"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+      font="Dialog"
+      textsize="10"
+    >  </text>
+    <text name="Fig10020.2"
+      x="440"
+      y="168"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+      font="Dialog"
+      textsize="10"
+    >CruzamentoLogradouro</text>
+    <rectangle name="Fig10020.3"
+      x="441"
+      y="186"
+      width="143"
+      height="2"
+      fill="1"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-1"
+    />
+    <group name="Fig10020.4"
+         description="org.tigris.gef.presentation.FigGroup[440, 206, 145, 19]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig10020.4.0"
+        x="440"
+        y="206"
+        width="145"
+        height="19"
+        fill="1"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+      />
+    </group>
+    <group name="Fig10020.5"
+         description="org.tigris.gef.presentation.FigGroup[440, 224, 145, 19]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig10020.5.0"
+        x="440"
+        y="224"
+        width="145"
+        height="19"
+        fill="1"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+      />
+      <text name="Fig10020.5.1"
+        x="441"
+        y="225"
+        fill="0"
+        fillcolor="-1"
+        stroke="1"
+        strokecolor="-16777216"
+        font="Dialog"
+        textsize="10"
+      >intercepta() : void</text>
+    </group>
+    <group name="Fig10020.6"
+         description="org.tigris.gef.presentation.FigGroup[568, 168, 17, 19]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      org.tigris.gef.presentation.FigImage@801059
+    </group>
+    <group name="Fig10020.7"
+         description="org.tigris.gef.presentation.FigGroup[568, 188, 17, 19]"
+         fill="1"
+         fillcolor="-1"
+         stroke="1"
+         strokecolor="-16777216"
+    >
+      <private>
+      </private>
+      
+      org.tigris.gef.presentation.FigImage@1b158db
+    </group>
+  </group>
+  <group name="Fig10021"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig10022"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig10023"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig10024"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig10025"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig10026"
+       description="org.tigris.gef.presentation.FigGroup[0, 0, 0, 0]"
+       fill="1"
+       fillcolor="-1"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+    </private>
+    
+  </group>
+  <group name="Fig10027"
+       description="org.argouml.uml.diagram.ui.FigAssociation"
+       href="-64--88-0--125-2002a0ba:1098eb65a3d:-7fe8"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+      sourcePortFig="Fig10013"
+      destPortFig="Fig1001"
+      sourceFigNode="Fig10013"
+      destFigNode="Fig1001"
+    </private>
+    <path name="Fig10027.1"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="0"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+    >
+      <moveto x="248"
+              y="216" />
+      <lineto x="201"
+              y="216" />
+    </path>
+  </group>
+  <group name="Fig10028"
+       description="org.argouml.uml.diagram.ui.FigAssociation"
+       href="-64--88-0--125-2002a0ba:1098eb65a3d:-7fe5"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+      sourcePortFig="Fig10013"
+      destPortFig="Fig1006"
+      sourceFigNode="Fig10013"
+      destFigNode="Fig1006"
+    </private>
+    <path name="Fig10028.1"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="0"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+    >
+      <moveto x="336"
+              y="168" />
+      <lineto x="336"
+              y="131" />
+    </path>
+  </group>
+  <group name="Fig10029"
+       description="org.argouml.uml.diagram.ui.FigAssociation"
+       href="-64--88-0--125-2002a0ba:1098eb65a3d:-7fe2"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+      sourcePortFig="Fig10020"
+      destPortFig="Fig1006"
+      sourceFigNode="Fig10020"
+      destFigNode="Fig1006"
+    </private>
+    <path name="Fig10029.1"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="0"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+    >
+      <moveto x="440"
+              y="168" />
+      <lineto x="440"
+              y="131" />
+    </path>
+  </group>
+  <group name="Fig10030"
+       description="org.argouml.uml.diagram.ui.FigAssociation"
+       href="-64--88-0--125-2002a0ba:1098eb65a3d:-7fdf"
+       stroke="1"
+       strokecolor="-16777216"
+  >
+    <private>
+      sourcePortFig="Fig10013"
+      destPortFig="Fig10020"
+      sourceFigNode="Fig10013"
+      destFigNode="Fig10020"
+    </private>
+    <path name="Fig10030.1"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="0"
+      fillcolor="-1"
+      stroke="1"
+      strokecolor="-16777216"
+    >
+      <moveto x="392"
+              y="224" />
+      <lineto x="440"
+              y="224" />
+    </path>
+  </group>
+</pgml>

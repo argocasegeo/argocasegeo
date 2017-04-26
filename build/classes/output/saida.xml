@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<integracao>
+	<padrao_analise>temp39977.xmi_.xmi</padrao_analise>
+	<classe_padrao>Educação</classe_padrao>
+	<ontologia>urbanus.owl</ontologia>
+	<classe_ontologia>Trecho_de_Logradouro</classe_ontologia>
+
+	<padrao_analise>temp39977.xmi_.xmi</padrao_analise>
+	<classe_padrao>Aluno</classe_padrao>
+	<ontologia>urbanus.owl</ontologia>
+	<classe_ontologia>Expressao_Espacial_Continencia_Coincidencia</classe_ontologia>
+
+	<padrao_analise>temp39977.xmi_.xmi</padrao_analise>
+	<classe_padrao>Bairro</classe_padrao>
+	<ontologia>urbanus.owl</ontologia>
+	<classe_ontologia>Quadra</classe_ontologia>
+
+	<padrao_analise>temp39977.xmi_.xmi</padrao_analise>
+	<classe_padrao>Escola</classe_padrao>
+	<ontologia>urbanus.owl</ontologia>
+	<classe_ontologia>Expressao_Espacial_Continencia_Coincidencia</classe_ontologia>
+</integracao>

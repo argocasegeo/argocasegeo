@@ -1,0 +1,12 @@
+THE ANALYSIS PATTERNS CATALOG
+
+    The Analysis Patterns Catalog of ArgoCASEGEO aims to help the database designer find solutions 
+that have already been used in similar GIS applications, which will improve the final database quality. 
+    An UML-GeoFrame data schema can be saved as a new Analysis Pattern, which can be (re) used in 
+new data schemas, composing thus, the Analysis Patterns Catalog. On the other hand, if the designer 
+is starting a new project it would be interesting to look up the catalog in order to find existing 
+analysis patterns.
+    The options for working with Analysis Patterns are located in the "Analysis Patterns" menu. 
+This menu has three submenus: "New Analysis Pattern", "Open/Reuse Analysis Pattern" and "Edit 
+Analysis Pattern". These submenus are described bellow.
+    CAUTION: The Analyis Pattern Catalog is specific for a UML-GeoFrame model.

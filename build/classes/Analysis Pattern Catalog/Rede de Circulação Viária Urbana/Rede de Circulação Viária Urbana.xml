@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<documentation name="Rede de Circulação Viária Urbana" theme="Aplicações Urbanas">
+    <problem>Como modelar os elementos de uma rede de circulação viária urbana?</problem>
+    <context>A circulação de veículos em uma cidade é realizada sobre a malha viária urbana. A rede de circulação viária fornece o sentido do tráfego, enquanto a malha viária fornece a estrutura de vias. Algumas vias de locomoção possuem sentido único e outras sentido duplo. Cada trecho é classificado de acordo com sua importância para o sistema viário como, por exemplo, se é uma via coletora, de ligação regional ou uma via local (diversas aplicações fazem uso dessas informações).
+
+
+    </context>
+    <forces>-Cada trecho de circulação, que pode compreender vários trechos de logradouro, possui informações sobre o sentido permitido para tráfego de veículos.
+-Alguns trechos não permitem circulação de veículos (ex.: ruas de pedestres).
+
+    </forces>
+    <participants>Da mesma forma que no padrão Malha Viária Urbana, a classe RedeDe¬CirculaçãoViária possui representação espacial complexa, formada pela representação de trechos e nós de conversão. Operações envolvendo toda a rede são definidas como métodos desta classe. Cada trecho de circulação pode estar associado a vários trechos de logradouros, significando a sobreposição de uma rede mais compacta sobre uma rede mais completa. Por outro lado, nem todo trecho de logradouro faz parte de um trecho de circulação, como ocorre com as vias de pedestre. Da mesma forma, há cruzamentos de logradouros que podem não ser, necessariamente, um nó de conversão. De acordo com a aplicação, um trecho de circulação pode ser especializado de diferentes formas. No contexto dos sistemas viários é comum aparecer a classificação dos trechos de circulação quanto ao tráfego e tamanho da via (ex.: via arterial, coletora, ligação regional e local).
+    </participants>
+    <related_patterns>O padrão Rede de Circulação Viária Urbana tem como base o padrão Malha Viária Urbana.
+    </related_patterns>
+    <example>Um sistema de itinerário de ônibus necessita da existência da circulação viária que, por sua vez, está sobre a malha viária, embora a malha viária também possa ser usada para outros fins. A Figura 4, extraída do esquema conceitual do banco de dados do sistema de transporte urbano da cidade de Belo Horizonte, ilustra o uso do padrão Rede de Circulação Viária Urbana. 
+Observa-se a reutilização de toda a modelagem referente aos temas Malha Viária e Rede de Circulação Viária. O projetista necessita modelar somente a parte do sistema relativa à sua aplicação, ou seja, o sistema de transporte de ônibus urbano. Outros exemplos de uso deste padrão de análise incluem os sistemas de roteamento de veículos para atendimento de emergência (ex.: ambulâncias, policiamento, corpo de bombeiros) e roteamento para entrega de mercadorias.
+  
+
+    </example>
+</documentation>

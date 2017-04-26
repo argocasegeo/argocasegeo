@@ -1,6 +1,3 @@
-/** "Porque Deus amou o mundo de tal maneira que deu o seu filho unig�nito para
- que todo aquele que nele cr� n�o pere�a, mas tenha a vida eterna". Jo. 3:16*/
-
 // @author Alexandre Gazola
 // �ltima atualiza�ao em 05/11/2004
 

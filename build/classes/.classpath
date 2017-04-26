@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/jena.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/antlr-2.7.5.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/ANTLRALL.JAR"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/arq.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/arq-extra.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/concurrent.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/gef-0.9.6.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/icu4j_3_4.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/iri.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/jdom.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/jenatest.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/json.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/junit.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/LOG4J.JAR"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/lucene-core-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/NSUML.JAR"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/OCL-ARGO.JAR"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/stax-api-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/swing-layout-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/wstx-asl-3.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/XERCES.JAR"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Guilherme/Desktop/ArgoCaseGeo 2.1/lib/xml-apis.jar"/>
+	<classpathentry kind="lib" path="org/argouml/catalog.zip"/>
+	<classpathentry kind="lib" path="org/argouml/terralib.zip"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

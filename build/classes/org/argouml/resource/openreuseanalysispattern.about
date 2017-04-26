@@ -1,0 +1,16 @@
+OPEN/REUSE ANALYSIS PATTERN
+
+    This menu lets the user open an analysis pattern, re(use) an analysis pattern and delete 
+an analysis pattern. The available patterns are displayed on the top-right side of the dialog.
+The left-hand side of the dialog displays the corresponding information of the selected pattern.
+To delete a pattern from the catalog, select the pattern and click on "delete". To open the data
+schema of a pattern, select the pattern and click on "open". 
+    To re(use) an analysis pattern, it is MANDATORY not to have an empty model. In other words, 
+the current model must have at least one UML-GeoFrame element (e.g. package, Geographic Object,
+etc.). This is the data schema of the new application being constructed. Once you have this data
+schema, it is possible to re(use) a pattern from the catalog. Just select the pattern on the list
+and click on "reuse". If the operation succeeds the data schema of the pattern will appear together
+in the current model (sometimes, it may appear exactly on the other data schema. In this case, it
+is necessary to drag one of the schemas away).
+    This menu also lets the user perform a search by specifying one or more keywords and clicking 
+on "OK". The patterns whose documetation contain the specified keywords will appear in the text area.  
