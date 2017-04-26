@@ -75,7 +75,8 @@ public class Main {
     // main
 
     public static void main(String args[]) {
-
+        
+        System.out.println("Loading ArgoCASEGEO");
         // Force the configuration to load
         Configuration.load();
 
@@ -227,6 +228,8 @@ public class Main {
         Object dgd = org.argouml.uml.generator.GeneratorDisplay.getInstance();
 
         MFactoryImpl.setEventPolicy(MFactoryImpl.EVENT_POLICY_IMMEDIATE);
+        
+        // change application name
         ProjectBrowser pb = new ProjectBrowser("ArgoCASEGEO v3.0", splash.getStatusBar(),
         themeMemory);
 
