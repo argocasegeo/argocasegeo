@@ -28,7 +28,7 @@ import org.argouml.kernel.*;
 import org.argouml.ui.*;
 import org.argouml.util.*;
 import org.argouml.util.osdep.*;
-// Acrescentado por Valério Moysés Vilela - TerraUFV
+// Acrescentado por Valï¿½rio Moysï¿½s Vilela - TerraUFV
 import org.argouml.mga.shape.shapefile.*;
 import org.argouml.mga.shape.dbffile.*;
 // fim do acrescimo
@@ -58,7 +58,7 @@ public class ActionGenerateShape extends ActionSaveXMI {
     ////////////////////////////////////////////////////////////////
     // private members
     
-    // por Valério Moysés Vilela - TerraUFV
+    // por Valï¿½rio Moysï¿½s Vilela - TerraUFV
     private NodeList geoObjects, associations, packages,
     nonGeoObjects, netObjects; //, dataTypes, geoFields;
     
@@ -365,16 +365,23 @@ public class ActionGenerateShape extends ActionSaveXMI {
                 shapeType[p] = false;
             p++;
         }
-        // Jah tenho o nome da classe e o tipo de representaçao espacial
+        // Jah tenho o nome da classe e o tipo de representaï¿½ao espacial
         // Criar os arquivos shape e pesquisar os atributos da classe
         int contRep = 0;
         for( int j = 0; j < 3; j++ )
             if( shapeType[j] )
                 contRep++;
+        
 
+        // FIXME
         if( contRep == 0 && shapeType[3] == false ) {
-            System.out.println( "Objetos geográficos devem ter pelo menos um tipo " +
-            "de representaçao espacial especificado" );
+            System.out.println( "Objetos geograficos devem ter pelo menos um tipo " +
+            "de representaÃ§Ã£o espacial especificado" );
+            
+            JOptionPane.showMessageDialog(new JFrame(), "Objetos geograficos "
+                    + "devem ter pelo menos um tipo de representaÃ§Ã£o espacial "
+                    + "especificado", "ERRO",
+                                           JOptionPane.ERROR_MESSAGE);
             return;
         }
         ShapeFile shape;
@@ -437,6 +444,10 @@ public class ActionGenerateShape extends ActionSaveXMI {
         if( shapeType[3] ) {
             System.out.println( "Nao eh possivel fazer o mapeamento automatico de " +
             "objetos complexos" );
+            
+            JOptionPane.showMessageDialog(new JFrame(), "Nao eh possivel fazer "
+                         + "o mapeamento automatico de objetos complexos "
+                         + "especificado", "ERRO", JOptionPane.ERROR_MESSAGE);
             //return;
         }
     }
