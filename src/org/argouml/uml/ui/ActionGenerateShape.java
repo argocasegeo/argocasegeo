@@ -357,12 +357,12 @@ public class ActionGenerateShape extends ActionSaveXMI {
         int p = 0;
 
         NodeList childs = n.getChildNodes();
+ 
+        // SÓ TÁ GERANDO SE FOR REDES
+        // ARRUMAR
         for( int i = 13; i < 20; i = i + 2 ) {
             NamedNodeMap values = childs.item( i ).getAttributes();
-            if( values.item( 0 ).getNodeValue().equals( "true" ) )
-                shapeType[p] = true;
-            else
-                shapeType[p] = false;
+            shapeType[p] = values.item( 0 ).getNodeValue().equals( "true" );
             p++;
         }
         // Jah tenho o nome da classe e o tipo de representa�ao espacial
@@ -378,8 +378,8 @@ public class ActionGenerateShape extends ActionSaveXMI {
             System.out.println( "Objetos geograficos devem ter pelo menos um tipo " +
             "de representação espacial especificado" );
             
-            JOptionPane.showMessageDialog(new JFrame(), "Objetos geograficos "
-                    + "devem ter pelo menos um tipo de representação espacial "
+            JOptionPane.showMessageDialog(new JFrame(), nome
+                    + " deve ter pelo menos um tipo de representação espacial "
                     + "especificado", "ERRO",
                                            JOptionPane.ERROR_MESSAGE);
             return;
@@ -445,7 +445,7 @@ public class ActionGenerateShape extends ActionSaveXMI {
             System.out.println( "Nao eh possivel fazer o mapeamento automatico de " +
             "objetos complexos" );
             
-            JOptionPane.showMessageDialog(new JFrame(), "Nao eh possivel fazer "
+            JOptionPane.showMessageDialog(new JFrame(), "Nao é possivel fazer "
                          + "o mapeamento automatico de objetos complexos "
                          + "especificado", "ERRO", JOptionPane.ERROR_MESSAGE);
             //return;
